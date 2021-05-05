@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<title>Engineer Leonard's Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+<style>
+p.thick {
+  font-weight: bold;
+}
+	</style>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b>Engineer</b> Leonard Maina</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#projects" class="w3-bar-item w3-button">Projects</a>
+      <a href="#about" class="w3-bar-item w3-button">Overview</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+	<a href="#research-topics" class="w3-bar-item w3-button">Research-Topics</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img src="Arch.jpg" alt="Architecture" width="1500" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>WEB</b></span> <span class="w3-hide-small w3-text-light-grey">Portfolio</span></h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content w3-white w3-padding" style="max-width:1564px">
+
+  <!-- Project Section -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Proof-of-concept Projects </h3>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom w3-card-4">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Controlling Servo Motor with LDR using NodeMCU ESP8266 12E</div>
+        <img src="Servo LDR.jpg" alt="Photo" style="width:100%; height:400px;">
+        <p class="thick"> The project involves coming up with a proof-of-concept that entails controlling a Servo Motor using a Light Dependent Resistor (LDR) with ESP8266 NodeMCU.
+        </p>
+<p class="thick"> Below is the link to the github repo:
+	</p>
+      <p class="w3-text-blue"><a href="https://github.com/YvonneMureithi/Controlling-Servo-Motor-Using-LDR-With-NodeMCU">Github project link</a></p> 
+ </p>
+<p class="thick"> Below is the link to the video:
+	</p>
+       <p class="w3-text-blue"><a href="https://drive.google.com/file/d/1q0yfVhpoHfInBYGSbj-8YKhXleSiTaPa/view?usp=sharing">Video link</a></p>
+
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom w3-card-4">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Using NodeMCU ESP8266 12E to send data to GoogleSheets</div>
+        <img src="Googlesheet.jpg" alt="Photo" style="width:100%; height:400px;">
+        <p class="thick"> The project below involves the use of NodeMCU board to send temperature and humidity data from the DHT11 Sensor to Googlesheets. This allows for real-time display of data on googlesheets from the physical system as well as real-time data analysis.
+        </p>
+<p class="thick"> Below is the link to the github repo:
+	</p>
+       <p class="w3-text-blue"><a href="https://github.com/LeoMaina/NodeMCU-to-send-DATA-to-Googlesheets-directly">Github project link</a></p>
+<p class="thick"> Below is the link to the video:
+	</p>
+       <p class="w3-text-blue"><a href="https://drive.google.com/file/d/15K4-qxCdpBGf4krBifqacEvuj6aerqH1/view?usp=sharing">Video link</a></p>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom w3-card-4">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Simple Pulse Monitor</div>
+        <img src="Simple pulse Monitor.jpg" alt="Photo" style="width:100%; height:400px;">
+        <p class="thick"> 
+        This is a simple pulse monitor system that monitors your pulse by connecting the physical system to Thingspeak servers via HTTP protocol to send and retrieve data constantly. The PulseSensor detects a pulse and the system sends the data to the thingSpeak servers which present the data via a pulse chart on the site, to allow for easy monitoring of the pulse from anywhere in the world.
+        </p>
+<p class="thick"> Below is the link to the github repo:
+	</p>
+       <p class="w3-text-blue"><a href="https://github.com/LeoMaina/Simple-Pulse-Monitor">Github project link</a></p>
+<p class="thick"> Below is the link to the video:
+	</p>
+       <p class="w3-text-blue"><a href="https://drive.google.com/file/d/1XxeSAvj11H7xsYeOUxuQt2tzRqliGeDJ/view?usp=sharing">Video link</a></p>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom w3-card-4">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Voice Controlled Home Appliance</div>
+        <img src="Home Appliance.jpg" alt="Photo" style="width:100%; height:400px;">
+        <p class="thick">
+        This is a project which is supposed to enable one to control home appliances by use of voice commands communicated to the Google Assistant, which then prompts the desired actions. In this case, we used voice commands to turn an LED on and off. This serves to make work easier, and adds convenience, since it can be done remotely. This is a proof of concept of relay module control on the mobile phone.
+        </p>
+<p class="thick"> Below is the link to the github repo:
+	</p>
+       <p class="w3-text-blue"><a href="https://github.com/Shekillah/Voice-controlled-home-appliances">Github project link</a></p>
+<p class="thick"> Below is the link to the video:
+	</p>
+       <p class="w3-text-blue"><a href="https://drive.google.com/file/d/1yOxHxaLUfID_061KhtsG4rwoy0CzKSZi/view?usp=sharing">Video link</a></p>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom w3-card-4">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Stepper Motor Control from Blynk App on mobile phone</div>
+        <img src="Stepper Motor Control.jpeg" alt="Photo" style="width:100%; height:400px;">
+        <p class="thick">
+        The objective of the mini-project was to control a stepper motor remotely through a smartphone using the Blynk application. This project proves the possibility of controlling the Relay Module from the Blynk app on your mobile phone.
+        </p>
+<p class="thick"> Below is the link to the github repo:
+	</p>
+       <p class="w3-text-blue"><a href="https://github.com/MisiCod/Stepper-control-from-the-phone">Github project link</a></p>
+<p class="thick"> Below is the link to the video:
+	</p>
+       <p class="w3-text-blue"><a href="https://drive.google.com/file/d/1fvmS19uSlYObzukHnPWiZt8Gzgh1g2Xg/view?usp=sharing">Video link</a></p>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom w3-card-4">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Smoke Detector</div>
+        <img src="Smoke Detector.jpg" alt="Photo" style="width:99%; height:400px;">
+        <p class="thick">
+        The project involves coming up with a smoke detector with notifications through the Blynk appplication. It can be used to detect air quality especially in offices, detecting gas leaks among other applications
+        </p>
+<p class="thick"> Below is the link to the github repo:
+	</p>
+       <p class="w3-text-blue"><a href="https://github.com/wambui-pixel/Smoke-detector">Github project link</a></p>
+<p class="thick"> Below is the link to the video:
+	</p>
+       <p class="w3-text-blue"><a href="https://drive.google.com/file/d/1rThPPFgARA0_BvlnY3WYd5hixEGHXRZ1/view?usp=sharing">Video link</a></p>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom w3-card-4">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Surgical Mask ATM</div>
+        <img src="Mask.jpg" alt="Photo" style="width:99%; height:400px;">
+        <p class="thick">
+        The project involves coming up with a mask dispensing system that alerts a person when they exit their home. With an added function of alerting the person when the number of masks runs low.
+        </p>
+<p class="thick"> Below is the link to the github repo:
+	</p>
+       <p class="w3-text-blue"><a href="https://github.com/r3wnad/Mask-ATM">Github project link</a></p>
+<p class="thick"> Below is the link to the video:
+	</p>
+       <p class="w3-text-blue"><a href="https://drive.google.com/file/d/1cmC6N5uJOMKeRgxqxM9pJ-mxS15ggk2Z/view?usp=sharing">Video link</a></p>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom w3-card-4">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Touchless Faucet</div>
+        <img src="Touchless Faucet.jpg" alt="Photo" style="width:99%; height:400px;">
+         <p class="thick">
+        The project involves coming up with a touchless faucet with a door control system that has one washing or santizing their hands before accessing a building or room and afterwards accessing the said room via a door that opens automatically. This therefore helps one reduce coming into contact with a contaminated sureface, i.e. the door.
+        </p>
+<p class="thick"> Below is the link to the github repo:
+	</p>
+       <p class="w3-text-blue"><a href="https://github.com/YvonneMureithi/Touchless-Faucet">Github project link</a></p>
+<p class="thick"> Below is the link to the video:
+	</p>
+       <p class="w3-text-blue"><a href="https://drive.google.com/file/d/1322PBqqJ3KDbGwk63p5JrCsGQyZ1wRnU/view?usp=sharing">Video link</a></p>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom w3-card-4">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Automatic Door System</div>
+        <img src="Automatic Door.jpg" alt="Photo" style="width:99%; height:400px;">
+        <p class="thick">
+        The project involves coming up with a proof-of-concept automatic door system that helps reduce coming into contact with contaminated surfaces, e.g. a door in a public place, most especially during this day and age of Covid-19. The door is automated in such a way that it opens once one comes within range of the Ultrasonic sensor.
+        </p>
+<p class="thick"> Below is the link to the github repo:
+	</p>
+       <p class="w3-text-blue"><a href="https://github.com/wambui-pixel/Automatic-Door">Github project link</a></p>
+<p class="thick"> Below is the link to the video:
+	</p>
+       <p class="w3-text-blue"><a href="https://drive.google.com/file/d/1lJ58umCCFEhu_6xs20ScBnnoJHzL3a-d/view?usp=sharing">Video link</a></p>
+      </div>
+      </div>
+
+    <div class="w3-col l3 m6 w3-margin-bottom w3-card-4">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Smart Parking</div>
+        <img src="Smart Parking.jpg" alt="Photo" style="width:99%; height:400px;">
+        <p class="thick">
+     This project is a smart parking system that automates entry and exit into and out of a parking lot. The system also communicates the availability/occupancy of parking spaces on the firebase cloud website which can be accessed from any smart device. Thereby, functions as a smart automated parking system.
+        </p>
+<p class="thick"> Below is the link to the github repo:
+	</p>
+       <p class="w3-text-blue"><a href="https://github.com/r3wnad/Smart-Parking">Github project link</a></p>
+<p class="thick"> Below is the link to the video:
+	</p>
+       <p class="w3-text-blue"><a href="https://drive.google.com/file/d/1lJ58umCCFEhu_6xs20ScBnnoJHzL3a-d/view?usp=sharing">Video link</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Overview Section -->
+  <div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Overview</h3>
+    <p class="thick">
+    This is the official Engineer Leonard Maina's web portfolio. I am currently studying Mechatronic Engineering in Jkuat. On this website there is documentation of all projects I have partcipated in as an engineer in training. Some of these projects were conducted at the Gearbox Offices as part of the Gearbox Academy Attachment program, Subaru Kenya Offices and Jkuat University. Most of these projects, I have hosted on Github. In each project, there is a provided link to the repository on Github. 
+    Most of these are engineering projects focusing on Internet of Things(IoT), Automotive Engineering and other engineering fields. I have amateur mastery in Arduino and NodeMCU boards, basic understanding of sending data from a physical system to a cloud base for data analysis and basic understanding of the functionality of what's under the hood of a vehicle (specifically Subaru models). I can also work comfortably with Windows and Linux Operating Systems.
+    </p>
+  </div>
+
+  <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="Profile.jpg" alt="Leonard" style="width:100%">
+      <h3>Leonard Maina</h3>
+      <p class="w3-opacity">Engineer in Training</p>
+      <p class="thick">This portfolio is a live documentation of the projects I have done, either as an individual or as part of a team. My focus is mostly on Internet of Things (IoT) but with content on Engineering as a whole. Find my contact information below.</p>
+      
+      <button><a href="mailto:leonardhophni@gmail.com" class="w3-button w3-light grey w3-block">Contact</a></button>
+    </div>
+    
+     <!-- Research-Topics Section -->
+
+  <div class="w3-container w3-padding-32" id="research-topics">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Research-Topics</h3>
+    
+
+<body>
+	 <div class="w3-black w3-container w3-padding-32" id="research-topics">
+	<style>
+p.thick {
+  font-weight: bold;
+}
+	</style>
+    <h3>Examples of research papers on the following topics:</h3>
+    <p class="thick">1. Stepper Motor vs Servo Motor---> 
+    Link to the PDF <a href="https://docs.google.com/document/d/1k8KaWEbxdILmSu3CE4aaad3SGRnG6QBJ/edit?rtpof=true">File</a>.</p>
+
+    <p class="thick">2. IoT in Managament of Covid-19--->
+    Link to the PDF <a href="https://docs.google.com/document/d/1k8KaWEbxdILmSu3CE4aaad3SGRnG6QBJ/edit?rtpof=true">File</a>.</p>
+
+    <p class="thick">3. Access control in IoT--->
+    Link to the PDF <a href="https://docs.google.com/document/d/1LMjrALGUb87oGPZoBNJcM3imJ-AffLfu/edit">File</a>.</p>
+
+    <p class="thick">4.Impact of IoT in the Transport Industry and in the Fight against Biodiversity Loss--->
+    Link to the PDF <a href="https://docs.google.com/document/d/1A-doM4verlOp4fR3-fwkRAR-Sgq37pea/edit">File</a>.</p>
+
+    <p class="thick">5.IoT application in Farm Management and Waste Management---> 
+    Link to the PDF <a href="https://docs.google.com/document/d/1_EyYJZwh3Q-9RZmOoaEw6jWTRYDaWRzE/edit">File</a>.</p>
+
+    <p class="thick">6.IoT applications that improved peoples lives in Africa---> 
+    Link to the PDF <a href="https://docs.google.com/document/d/19LA0gaN14DDtB-BvphigIT3wisB2jsRo/edit">File</a>.</p>
+  </body>
+
+	
+   </body>
+    
+  </div>
+
+ 
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-32" id="contact">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
+    <p class="thick">Contact me via the following means:</p>
+    
+    
+   	<address>
+	<p class="w3-text-blue" class="thick">Gmail: <a href="mailto:leonardhophni@gmail.com">leonardhophni@gmail.com</a>.<br></p>
+	<p class="w3-text-blue" class="thick">Github: <a href="https://github.com/LeoMaina">LeoMaina Profile</a>.<br></p>
+	<p class="thick">Mobile No: +254 703 663 815</p>
+	</address>
+    
+  </div>
+  
+<!-- Image of location/map -->
+<div class="w3-container">
+  <img src="Arch.jpg" alt="Architecture" width="1500" height="500">
+</div>
+
+<!-- End page content -->
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p class="thick">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+</body>
+</html>
