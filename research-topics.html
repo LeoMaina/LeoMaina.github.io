@@ -22,39 +22,11 @@ p.thick {
   </style>
 
  <!-- Page content -->
-<div class="w3-content w3-white w3-padding w3-display-container" style="max-width:1500px">
+<div class="w3-content w3-teal w3-padding w3-display-container" style="max-width:1564px">
+
 
   <!-- Navbar (sit on top) -->
-<div class="w3-top">
-  <div class="w3-bar w3-teal w3-wide w3-display-container w3-padding w3-card">
-    <a href="index.html" class="w3-bar-item w3-button"><b>Home</b></a>
-    <!-- Float links to the right. Hide them on small screens -->
-    <div class="w3-right w3-hide-small">
-      <a href="projects.html" class="w3-bar-item w3-button">Projects</a>
-      <a href="index.html" class="w3-bar-item w3-button">Overview</a>
-      <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
-  <a href="research-topics.html" class="w3-bar-item w3-button">Research-Topics</a>
-    </div>
-  </div>
-</div>
-
- <!--Sidebar-->
-  <div class="w3-sidebar w3-bar-block w3-collapse w3-card w3-animate-left" style="width:200px;" id="mySidebar">
-  <button class="w3-bar-item w3-button w3-large w3-hide-large" onclick="w3_close()">Close &times;</button>
-  <a href="projects.html" class="w3-bar-item w3-button">Projects</a>
-  <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
-  <a href="research-topics.html" class="w3-bar-item w3-button">research-topics</a>
-</div>
-<script>
-function w3_open() {
-  document.getElementById("mySidebar").style.display = "block";
-}
-
-function w3_close() {
-  document.getElementById("mySidebar").style.display = "none";
-}
-</script> <!--Sidebar-->
- <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+<div class="w3-sidebar w3-top w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
   <button class="w3-bar-item w3-button w3-large"
   onclick="w3_close()">Close &times;</button>
   <a href="projects.html" class="w3-bar-item w3-button">Projects</a>
@@ -67,20 +39,18 @@ function w3_close() {
 <div class="w3-teal">
   <button id="openNav" class="w3-button w3-teal w3-xlarge" onclick="w3_open()">&#9776;</button>
 
-  <script>
-function w3_open() {
-  document.getElementById("main").style.marginLeft = "25%";
-  document.getElementById("mySidebar").style.width = "25%";
-  document.getElementById("mySidebar").style.display = "block";
-  document.getElementById("openNav").style.display = 'none';
-}
-function w3_close() {
-  document.getElementById("main").style.marginLeft = "0%";
-  document.getElementById("mySidebar").style.display = "none";
-  document.getElementById("openNav").style.display = "inline-block";
-}
-</script>
-
+  <div class="w3-bar w3-teal w3-wide w3-display-container w3-padding w3-card">
+    <a href="index.html" class="w3-bar-item w3-button"><b>Home</b></a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right">
+      <a href="projects.html" class="w3-bar-item w3-button">Projects</a>
+      <a href="index.html" class="w3-bar-item w3-button">Overview</a>
+      <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
+  <a href="research-topics.html" class="w3-bar-item w3-button">Research-Topics</a>
+    </div>
+  </div>
+</div>
+</div>
 
 <!-- Research-Topics Section -->
 
@@ -89,7 +59,7 @@ function w3_close() {
     
 
 <body>
-	 <div class="w3-black w3-container w3-padding-32" id="research-topics">
+	 <div class="w3-teal w3-container w3-padding-32" id="research-topics">
 	<style>
 p.thick {
   font-weight: bold;
@@ -118,3 +88,20 @@ p.thick {
   </div>
 </body>
 </div>
+</div>
+
+<script>
+function w3_open() {
+  document.getElementById("main").style.marginLeft = "25%";
+  document.getElementById("mySidebar").style.width = "25%";
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("openNav").style.display = 'none';
+}
+function w3_close() {
+  document.getElementById("main").style.marginLeft = "0%";
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("openNav").style.display = "inline-block";
+}
+</script>
+</body>
+</html>
