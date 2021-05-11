@@ -23,7 +23,7 @@ p.thick {
 
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
-  <div class="w3-bar w3-black w3-wide w3-display-container w3-padding w3-card">
+  <div class="w3-bar w3-teal w3-wide w3-display-container w3-padding w3-card">
     <a href="index.html" class="w3-bar-item w3-button"><b>Home</b></a>
     <!-- Float links to the right. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
@@ -39,7 +39,7 @@ p.thick {
 <header class="w3-display-container w3-content w3-wide" style="margin-left:200px;" id="home">
   
 
- <img class="img-fluid" src="Arch.jpg" alt="Photo" width="1300" height="500"> 
+ <img class="img-fluid" src="Arch.jpg" alt="Photo" width="1500" height="500"> 
 
   <div class="w3-display-middle w3-margin-top w3-center line-height: 200%;">
     <p> <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-display-container w3-black w3-opacity-min"><b>Engineer</b></span> <span class="w3-text-light-grey w3-display-container">Leonard Maina</span></h1> </p>
@@ -52,19 +52,30 @@ p.thick {
 <div class="w3-content w3-white w3-padding w3-display-container" style="max-width:1500px">
 
   <!--Sidebar-->
-  <div class="w3-sidebar w3-bar-block w3-collapse w3-card w3-animate-left" style="width:200px;" id="mySidebar">
-  <button class="w3-bar-item w3-button w3-large w3-hide-large" onclick="w3_close()">Close &times;</button>
+ <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+  <button class="w3-bar-item w3-button w3-large"
+  onclick="w3_close()">Close &times;</button>
   <a href="projects.html" class="w3-bar-item w3-button">Projects</a>
   <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
   <a href="research-topics.html" class="w3-bar-item w3-button">research-topics</a>
 </div>
-<script>
-function w3_open() {
-  document.getElementById("mySidebar").style.display = "block";
-}
 
+<div id="main">
+
+<div class="w3-teal">
+  <button id="openNav" class="w3-button w3-teal w3-xlarge" onclick="w3_open()">&#9776;</button>
+
+  <script>
+function w3_open() {
+  document.getElementById("main").style.marginLeft = "25%";
+  document.getElementById("mySidebar").style.width = "25%";
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("openNav").style.display = 'none';
+}
 function w3_close() {
+  document.getElementById("main").style.marginLeft = "0%";
   document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("openNav").style.display = "inline-block";
 }
 </script>
 
