@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <title>Engineer Leonard's Portfolio</title>
 <meta charset="UTF-8">
@@ -19,9 +19,9 @@
 p.thick {
   font-weight: bold;
 }
-	</style>
+  </style>
 
-	<!-- Navbar (sit on top) -->
+  <!-- Navbar (sit on top) -->
 <div class="w3-sidebar w3-teal w3-top w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
   <button class="w3-bar-item w3-button w3-large"
   onclick="w3_close()">Close &times;</button>
@@ -40,50 +40,45 @@ p.thick {
     <a href="index.html" class="w3-bar-item w3-button"><b>Home</b></a>
     <!-- Float links to the right. Hide them on small screens -->
     <div class="w3-right">
-      <a href="projects.html" class="w3-bar-item w3-hide-small w3-button">Projects</a>
+      <a href="projects.html" class="w3-bar-item w3-hide-small w3-button">Projects</a>w
       <a href="index.html" class="w3-bar-item w3-hide-small w3-button">Overview</a>
       <a href="contact.html" class="w3-bar-item w3-hide-small w3-button">Contact</a>
-	<a href="research-topics.html" class="w3-bar-item w3-hide-small w3-button">Research</a>
+  <a href="research-topics.html" class="w3-bar-item w3-hide-small w3-button">Research-Topics</a>
     </div>
   </div>
 </div>
 </div>
 
-	<!-- Page content -->
+ <!-- Page content -->
 <div class="w3-content w3-teal w3-padding w3-display-container" style="max-width:1564px">
 
+  <!-- Overview Section -->
+  <div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Overview</h3>
+    <p class="thick">
+    This is the official Engineer Leonard Maina's web portfolio. I am currently studying Mechatronic Engineering in Jkuat. On this website there is documentation of all projects I have partcipated in as an engineer in training. Some of these projects were conducted at the Gearbox Offices as part of the Gearbox Academy Attachment program, Subaru Kenya Offices and Jkuat University. Most of these projects, I have hosted on Github. In each project, there is a provided link to the repository on Github. 
+    Most of these are engineering projects focusing on Internet of Things(IoT), Automotive Engineering and other engineering fields. I have amateur mastery in Arduino and NodeMCU boards, basic understanding of sending data from a physical system to a cloud base for data analysis and basic understanding of the functionality of what's under the hood of a vehicle (specifically Subaru models). I can also work comfortably with Windows and Linux Operating Systems.
+    </p>
+  </div>
 
- 
-
-<!--Contacts section-->
-
-<div class="w3-row-padding w3-grayscale">
+  <div class="w3-row-padding w3-grayscale">
     <div class="w3-col l3 m6 w3-margin-bottom">
       <img src="Leo profile.jpg" alt="Leonard" style="width:100%">
       <h3>Leonard Maina</h3>
       <p class="w3-opacity">Engineer in Training</p>
-      <p class="thick">This portfolio is a live documentation of the projects I have done, either as an individual or as part of a team. My focus is mostly on Internet of Things (IoT) but with content on Engineering as a whole. Find my contact information below.</p>
       
-      <button><a href="mailto:leonardhophni@gmail.com" class="w3-button w3-light grey w3-block">Click to Email me</a></button>
     </div>  
   </div>
+  </body>
 
- <div class="w3-container w3-padding-32" id="contact">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
-    <p class="thick">Contact me via the following means:</p>
-    
-    
-   	<address>
-	<p class="w3-text-black" class="thick">Gmail: <a href="mailto:leonardhophni@gmail.com">leonardhophni@gmail.com</a>.<br></p>
-	<p class="w3-text-black" class="thick">Github: <a href="https://github.com/LeoMaina">LeoMaina Profile</a>.<br></p>
-	<p class="thick">Mobile No: +254 703 663 815</p>
-	</address>
-    
-  </div>
+  <!-- End page content -->
 </div>
 
+
 <!-- Footer -->
-<footer>
+
+<footer class="w3-center w3-black w3-padding-16">
+  <p class="thick">Copyright © 2021<a href="https://www.leomaina.github.io" title="W3.CSS" target="_blank" class="w3-hover-text-green"> dranoel</a></p>
 </footer>
 
 <script>
@@ -99,6 +94,5 @@ function w3_close() {
   document.getElementById("openNav").style.display = "inline-block";
 }
 </script>
-
 </body>
 </html>

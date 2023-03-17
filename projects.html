@@ -22,12 +22,12 @@ p.thick {
   </style>
 
   <!-- Navbar (sit on top) -->
-<div class="w3-sidebar w3-top w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+<div class="w3-sidebar w3-teal w3-top w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
   <button class="w3-bar-item w3-button w3-large"
   onclick="w3_close()">Close &times;</button>
   <a href="projects.html" class="w3-bar-item w3-button">Projects</a>
   <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
-  <a href="research-topics.html" class="w3-bar-item w3-button">research-topics</a>
+  <a href="research-topics.html" class="w3-bar-item w3-button">Research</a>
 </div>
 
 <div id="main">
@@ -39,10 +39,10 @@ p.thick {
     <a href="index.html" class="w3-bar-item w3-button"><b>Home</b></a>
     <!-- Float links to the right. Hide them on small screens -->
     <div class="w3-right">
-      <a href="projects.html" class="w3-bar-item w3-hide-small w3-button">Projects</a>w
-      <a href="index.html" class="w3-bar-item w3-hide-small w3-button">Overview</a>
+      <a href="projects.html" class="w3-bar-item w3-hide-small w3-button">Projects</a>
+      <a href="overview.html" class="w3-bar-item w3-hide-small w3-button">Overview</a>
       <a href="contact.html" class="w3-bar-item w3-hide-small w3-button">Contact</a>
-  <a href="research-topics.html" class="w3-bar-item w3-hide-small w3-button">Research-Topics</a>
+  <a href="research-topics.html" class="w3-bar-item w3-hide-small w3-button">Research</a>
     </div>
   </div>
 </div>
@@ -55,11 +55,37 @@ p.thick {
  
 <!-- Project Section -->
   <div class="w3-container w3-padding-32" id="projects" style="max-width:1564px">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Robotics Projects </h3>
+  </div>
+
+  <div class="w3-col l3 m6 w3-margin-bottom w3-card-4 w3-light-grey">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Semi-Autonomous Wheel Clamping Robot Prototype</div>
+        <img src="3D Assembly.png" alt="Photo" style="width:100%; height:400px;">
+        <p class="thick"> The project is a patented project. The robot uses computer vision to detect a car and its wheel. The robot then moves autonomously to the wheel of the detected car and deploys a clamp on to the wheel. The robot then returns to a P&D station to get another clamp.
+        </p>
+<p class="thick"> Below is the link to the github repo:
+  </p>
+      <p class="w3-white w3-opacity"><a href="https://github.com/LeoMaina/Car-Wheel-Clamping-Robot-Prototype">Github project link</a></p> 
+ </p>
+
+      </div>
+    </div>
+
+  <div class="w3-container w3-padding-32" id="projects" style="max-width:1564px">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Machine Learning Projects </h3>
+  </div>
+  <p class="w3-white w3-opacity"><a href="https://github.com/LeoMaina/Audio_Classifier_with_python">Audio_classifier with Python</a></p>
+  <p class="w3-white w3-opacity"><a href="https://github.com/LeoMaina/Face_Mask_Detection-with-proteus-simulation">Face Mask Detection with simulation on Proteus</a></p>
+  <p class="w3-white w3-opacity"><a href="https://github.com/LeoMaina/Car-Wheel-Clamping-Robot-Prototype/tree/main/TFOD">Wheel Identification DL algorithm</a></p>
+  <p class="w3-white w3-opacity"><a href="https://github.com/LeoMaina/Virtual-Assistant-using-Speech-Recognition-API">Virtual Assistant using Speech Recognition API</a></p>
+
+  <div class="w3-container w3-padding-32" id="projects" style="max-width:1564px">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Proof-of-concept Projects </h3>
   </div>
 
   <div class="w3-row-padding">
-    <div class="w3-col l3 m6 w3-margin-bottom w3-card-4">
+    <div class="w3-col l3 m6 w3-margin-bottom w3-card-4 w3-light-grey">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Light-Controlled Servo Motor</div>
         <img src="Servo LDR.jpg" alt="Photo" style="width:100%; height:400px;">
@@ -75,7 +101,7 @@ p.thick {
 
       </div>
     </div>
-    <div class="w3-col l3 m6 w3-margin-bottom w3-card-4">
+    <div class="w3-col l3 m6 w3-margin-bottom w3-card-4 w3-light-grey">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Automated Googlesheets temperature and humidity logger</div>
         <img src="Googlesheet.jpg" alt="Photo" style="width:100%; height:400px;">
@@ -89,7 +115,7 @@ p.thick {
        <p class="w3-white w3-opacity"><a href="https://drive.google.com/file/d/15K4-qxCdpBGf4krBifqacEvuj6aerqH1/view?usp=sharing">Video link</a></p>
       </div>
     </div>
-    <div class="w3-col l3 m6 w3-margin-bottom w3-card-4">
+    <div class="w3-col l3 m6 w3-margin-bottom w3-card-4 w3-light-grey">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Simple Pulse Monitor</div>
         <img src="Simple Pulse Monitor.jpg" alt="Photo" style="width:100%; height:400px;">
@@ -104,7 +130,7 @@ p.thick {
        <p class="w3-white w3-opacity"><a href="https://drive.google.com/file/d/1XxeSAvj11H7xsYeOUxuQt2tzRqliGeDJ/view?usp=sharing">Video link</a></p>
       </div>
     </div>
-    <div class="w3-col l3 m6 w3-margin-bottom w3-card-4">
+    <div class="w3-col l3 m6 w3-margin-bottom w3-card-4 w3-light-grey">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Voice Controlled Home Appliance</div>
         <img src="Home Appliance.jpg" alt="Photo" style="width:100%; height:400px;">
@@ -119,7 +145,7 @@ p.thick {
        <p class="w3-white w3-opacity"><a href="https://drive.google.com/file/d/1yOxHxaLUfID_061KhtsG4rwoy0CzKSZi/view?usp=sharing">Video link</a></p>
       </div>
     </div>
-    <div class="w3-col l3 m6 w3-margin-bottom w3-card-4">
+    <div class="w3-col l3 m6 w3-margin-bottom w3-card-4 w3-light-grey">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Relay Module Control on Blynk mobile App</div>
         <img src="Stepper Motor Control.jpeg" alt="Photo" style="width:100%; height:400px;">
@@ -134,7 +160,7 @@ p.thick {
        <p class="w3-white w3-opacity"><a href="https://drive.google.com/file/d/1fvmS19uSlYObzukHnPWiZt8Gzgh1g2Xg/view?usp=sharing">Video link</a></p>
       </div>
     </div>
-    <div class="w3-col l3 m6 w3-margin-bottom w3-card-4">
+    <div class="w3-col l3 m6 w3-margin-bottom w3-card-4 w3-light-grey">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Air Quality Monitoring System</div>
         <img src="Smoke Detector.jpg" alt="Photo" style="width:99%; height:400px;">
@@ -149,7 +175,7 @@ p.thick {
        <p class="w3-white w3-opacity"><a href="https://drive.google.com/file/d/1rThPPFgARA0_BvlnY3WYd5hixEGHXRZ1/view?usp=sharing">Video link</a></p>
       </div>
     </div>
-    <div class="w3-col l3 m6 w3-margin-bottom w3-card-4">
+    <div class="w3-col l3 m6 w3-margin-bottom w3-card-4 w3-light-grey">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Surgical Mask ATM</div>
         <img src="Mask.jpg" alt="Photo" style="width:99%; height:400px;">
@@ -164,7 +190,7 @@ p.thick {
        <p class="w3-white w3-opacity"><a href="https://drive.google.com/file/d/1cmC6N5uJOMKeRgxqxM9pJ-mxS15ggk2Z/view?usp=sharing">Video link</a></p>
       </div>
     </div>
-    <div class="w3-col l3 m6 w3-margin-bottom w3-card-4">
+    <div class="w3-col l3 m6 w3-margin-bottom w3-card-4 w3-light-grey">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Contactless Faucet</div>
         <img src="Touchless Faucet.jpg" alt="Photo" style="width:99%; height:400px;">
@@ -179,7 +205,7 @@ p.thick {
        <p class="w3-white w3-opacity"><a href="https://drive.google.com/file/d/1322PBqqJ3KDbGwk63p5JrCsGQyZ1wRnU/view?usp=sharing">Video link</a></p>
       </div>
     </div>
-    <div class="w3-col l3 m6 w3-margin-bottom w3-card-4">
+    <div class="w3-col l3 m6 w3-margin-bottom w3-card-4 w3-light-grey">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Automated Door System</div>
         <img src="Automatic Door.jpg" alt="Photo" style="width:99%; height:400px;">
@@ -195,7 +221,7 @@ p.thick {
       </div>
       </div>
 
-    <div class="w3-col l3 m6 w3-margin-bottom w3-card-4">
+    <div class="w3-col l3 m6 w3-margin-bottom w3-card-4 w3-light-grey">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Smart Parking</div>
         <img src="Smart Parking.jpg" alt="Photo" style="width:99%; height:400px;">
