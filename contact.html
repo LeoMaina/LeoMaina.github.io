@@ -28,7 +28,7 @@ a{
   display: flex;
   align-items: center;
   width: 100%;
-  background-color: #000000;
+  background-color: #008080;
 }
 
 .skills {
@@ -36,14 +36,20 @@ a{
   padding-top: 10px;
   padding-bottom: 10px;
   color: black;
+  flex-grow: 1;
 }
 
-.ml {width: 60%; background-color: #FFDB58;}
-.robotics {width: 75%; background-color: #FFDB58;}
-.IoT {width: 80%; background-color: #FFDB58;}
-.Data_analytics {width: 45%; background-color: #FFDB58;}
-.Design {width: 80%; background-color: #FFDB58;}
-.Programming {width: 60%; background-color: #FFDB58;}
+.skill-bar {
+  width: 100%;
+  background-color: #FFDB58;
+}
+
+.ml .skill-bar {width: 60%;}
+.robotics .skill-bar {width: 75%;}
+.IoT .skill-bar {width: 80%;}
+.Data_analytics .skill-bar {width: 45%;}
+.Design .skill-bar {width: 80%;}
+.Programming .skill-bar {width: 60%;}
 
 </style>
 
