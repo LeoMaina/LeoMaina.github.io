@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>Engineer Leonard's web Portfolio</title>
+<title>Engineer Leonard's Portfolio</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -17,51 +17,50 @@
 
 <style>
 p.thick {
-  font-weight: bold;
+  font-weight: normal;
 }
 
 a{
-  color: deepskyblue;
+  color: white;
 }
 * {box-sizing: border-box}
 
 .container {
-  display: flex;
-  align-items: center;
   width: 100%;
   background-color: #000000;
 }
 
 .skills {
-  text-align: right;
+  padding-bottom: 10px; /* add some padding */
   padding-top: 10px;
-  padding-bottom: 10px;
+  text-align: right;
   color: black;
-  flex-grow: 1;
 }
 
-.skill-bar {
-  width: 100%;
-  background-color: #FFDB58;
+img {
+  float: left;
 }
 
-.ml .skill-bar {width: 60%;}
-.robotics .skill-bar {width: 75%;}
-.IoT .skill-bar {width: 80%;}
-.Data_analytics .skill-bar {width: 45%;}
-.Design .skill-bar {width: 80%;}
-.Programming .skill-bar {width: 60%;}
+ul.b {
+  list-style-type: square;
+}
+
+.ml {width: 60%; background-color: #FFDB58;}
+.robotics {width: 75%; background-color: #FFDB58;}
+.IoT {width: 80%; background-color: #FFDB58;}
+.Data_analytics {width: 45%; background-color: #FFDB58;}
+.Design {width: 80%; background-color: #FFDB58;}
+.Programming {width: 70%; background-color: #FFDB58;}
 
 </style>
-
 <!-- Navbar (sit on top) -->
 <div class="w3-sidebar w3-top w3-teal w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
   <button class="w3-bar-item w3-button w3-large"
   onclick="w3_close()">Close &times;</button>
-  <a href="overview.html" class="w3-bar-item w3-button">Overview</a>
+  <a href="overview.html" class="w3-bar-item w3-hide-small w3-button">Overview</a>
   <a href="projects.html" class="w3-bar-item w3-teal w3-button">Projects</a>
   <a href="contact.html" class="w3-bar-item w3-teal w3-button">Contact</a>
-  <a href="certifications.html" class="w3-bar-item w3-button">Certification</a>
+  <a href="certifications.html" class="w3-bar-item w3-hide-small w3-button">Certification</a>
 </div>
 
 <div id="main">
@@ -69,18 +68,19 @@ a{
 <div class="w3-teal">
   <button id="openNav" class="w3-button w3-teal w3-xlarge" onclick="w3_open()">&#9776;</button>
 
-  <div class="w3-bar w3-teal w3-wide w3-display-container w3-padding w3-card">
+  <div class="w3-bar w3-teal w3-wide w3-display-container w3-padding-small w3-card">
     <a href="index.html" class="w3-bar-item w3-button"><b>Home</b></a>
     <!-- Float links to the right. Hide them on small screens -->
     <div class="w3-right">
       <a href="overview.html" class="w3-bar-item w3-hide-small w3-button">Overview</a>
       <a href="projects.html" class="w3-bar-item w3-hide-small w3-button">Projects</a>
       <a href="contact.html" class="w3-bar-item w3-hide-small w3-button">Contact</a>
-	<a href="certifications.html" class="w3-bar-item w3-hide-small w3-button">Certification</a>
+  <a href="certifications.html" class="w3-bar-item w3-hide-small w3-button">Certification</a>
     </div>
   </div>
 </div>
 </div>
+
 
 <!-- Header -->
 <header class="w3-display-container w3-content w3-center w3-wide" style="max-width:1564px;" id="home">

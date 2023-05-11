@@ -21,40 +21,38 @@ p.thick {
 }
 
 a{
-  color: deepskyblue;
+  color: white;
 }
 * {box-sizing: border-box}
 
 .container {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: left;
   width: 100%;
-  background-color: #008080;
+  background-color: #000000;
 }
 
 .skills {
-  text-align: right;
+  padding-bottom: 10px; /* add some padding */
   padding-top: 10px;
-  padding-bottom: 10px;
+  text-align: right;
   color: black;
-  flex-grow: 1;
 }
 
-.skill-bar {
-  width: 100%;
-  background-color: #FFDB58;
+img {
+  float: left;
 }
 
-.ml .skill-bar {width: 60%;}
-.robotics .skill-bar {width: 75%;}
-.IoT .skill-bar {width: 80%;}
-.Data_analytics .skill-bar {width: 45%;}
-.Design .skill-bar {width: 80%;}
-.Programming .skill-bar {width: 60%;}
+ul.b {
+  list-style-type: square;
+}
+
+.ml {width: 60%; background-color: #FFDB58;}
+.robotics {width: 75%; background-color: #FFDB58;}
+.IoT {width: 80%; background-color: #FFDB58;}
+.Data_analytics {width: 45%; background-color: #FFDB58;}
+.Design {width: 80%; background-color: #FFDB58;}
+.Programming {width: 70%; background-color: #FFDB58;}
 
 </style>
-
 <!-- Navbar (sit on top) -->
 <div class="w3-sidebar w3-top w3-teal w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
   <button class="w3-bar-item w3-button w3-large"
@@ -70,7 +68,7 @@ a{
 <div class="w3-teal">
   <button id="openNav" class="w3-button w3-teal w3-xlarge" onclick="w3_open()">&#9776;</button>
 
-  <div class="w3-bar w3-teal w3-wide w3-display-container w3-padding w3-card">
+  <div class="w3-bar w3-teal w3-wide w3-display-container w3-padding-small w3-card">
     <a href="index.html" class="w3-bar-item w3-button"><b>Home</b></a>
     <!-- Float links to the right. Hide them on small screens -->
     <div class="w3-right">
@@ -82,6 +80,7 @@ a{
   </div>
 </div>
 </div>
+
  <!-- Page content -->
 <div class="w3-content w3-teal w3-padding w3-display-container" style="max-width:1564px">
 
